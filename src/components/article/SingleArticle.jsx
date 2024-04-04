@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SingleArticle = ({ article }) => {
   return (
-    <figure className="flex flex-col gap-2  rounded p-2 hover:shadow-lg">
+    <figure className="flex flex-col gap-2 rounded p-2 hover:shadow-lg">
       <div className="relative w-full aspect-video mb-2">
         <Image
           src={article?.image}
