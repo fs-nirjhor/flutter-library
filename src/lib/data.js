@@ -42,3 +42,27 @@ export const templates = [
     downloads: 546,
   },
 ];
+
+export const articles = [
+  {
+    id: 1,
+    title: "Learn Flutter Animation",
+    image: "/article.png",
+    date: "Mar 24, 2024",
+    category: "Animation",
+  },
+  {
+    id: 2,
+    title: "Onboarding Screen with Carousel & Animated Dots",
+    image: "/article2.png",
+    date: "Mar 24, 2024",
+    category: "Animation",
+  },
+  {
+    id: 3,
+    title: "Parallax Scroll Effect with PageView in Flutter",
+    image: "/article3.png",
+    date: "Mar 24, 2024",
+    category: "Animation",
+  },
+];
