@@ -1,6 +1,6 @@
 import Image from "next/image";
-import searchIcon from "@/../public/search.png";
-import theme from "@/../public/theme.png";
+import searchIcon from "@/../public/images/icons/search.png";
+import theme from "@/../public/images/icons/theme.png";
 import MobileMenu from "@/components/sidebar/MobileMenu";
 
 const Navbar = () => {

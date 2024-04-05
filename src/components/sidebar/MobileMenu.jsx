@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import menuIcon from "@/../public/menu.png";
+import menuIcon from "@/../public/images/icons/menu.png";
 import Sidebar from "@/components/sidebar/Sidebar";
 import { useState } from "react";
 

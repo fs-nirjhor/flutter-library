@@ -3,8 +3,8 @@
 import { filters } from "@/lib/data";
 import Image from "next/image";
 import { useState } from "react";
-import filterIcon from "@/../public/filter.png";
-import arrow from "@/../public/arrow.png";
+import filterIcon from "@/../public/images/icons/filter.png";
+import arrow from "@/../public/images/icons/arrow.png";
 
 const Filters = () => {
   const [active, setActive] = useState("All");

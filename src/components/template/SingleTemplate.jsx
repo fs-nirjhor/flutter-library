@@ -1,6 +1,6 @@
 import Image from "next/image";
-import kits from "@/../public/kits.png";
-import downloads from "@/../public/downloads.png";
+import kits from "@/../public/images/icons/kits.png";
+import downloads from "@/../public/images/icons/downloads.png";
 
 const SingleTemplate = ({ template }) => {
   return (

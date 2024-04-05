@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/../public/logo.png";
+import logo from "@/../public/images/logo.png";
 import { allScreens, menus } from "@/lib/data";
 import Menu from "@/components/sidebar/Menu";
 import AllScreens from "@/components/sidebar/AllScreens";

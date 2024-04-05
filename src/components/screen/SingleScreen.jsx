@@ -1,5 +1,5 @@
 import Image from "next/image";
-import copy from "@/../public/copy.png";
+import copy from "@/../public/images/icons/copy.png";
 
 const SingleScreen = ({ screen }) => {
   return (
