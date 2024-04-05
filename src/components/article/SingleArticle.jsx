@@ -8,8 +8,6 @@ const SingleArticle = ({ article }) => {
           src={article?.image}
           alt={article?.title}
           fill
-          objectFit="cover"
-          objectPosition="center"
           placeholder="blur"
           blurDataURL={article?.image}
         />

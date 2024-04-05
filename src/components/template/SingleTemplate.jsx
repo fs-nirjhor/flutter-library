@@ -10,8 +10,6 @@ const SingleTemplate = ({ template }) => {
           src={template?.image}
           alt={template?.title}
           fill
-          objectFit="cover"
-          objectPosition="center"
           placeholder="blur"
           blurDataURL={template?.image}
         />
