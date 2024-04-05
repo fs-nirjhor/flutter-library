@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <Template />
       <Article />
-      <Screen />
+      {/* <Screen /> */}
     </main>
   );
 }

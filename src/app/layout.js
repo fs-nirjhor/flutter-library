@@ -14,9 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`flex min-h-screen overflow-x-hidden ${inter.className}`}
-      >
+      <body className={`flex min-h-screen ${inter.className}`}>
         <aside className="hidden lg:block relative">
           <Sidebar />
         </aside>
