@@ -6,8 +6,8 @@ import MobileMenu from "@/components/sidebar/MobileMenu";
 const Navbar = () => {
   return (
     <>
-      <section className="sticky top-0 z-50 flex justify-between items-center w-full py-3 px-2 bg-white">
-        <div className="flex items-center gap-3">
+      <section className="sticky top-0 z-50 flex justify-between items-center gap-2 w-full py-3 px-2 bg-white text-nowrap text-sm">
+        <div className="flex items-center gap-2">
           <MobileMenu />
           <form>
             <label className="bg-gray-200 rounded-full px-2 py-1 flex flex-nowrap gap-2">
@@ -16,7 +16,7 @@ const Navbar = () => {
                 type="text"
                 name="search"
                 placeholder="Search.."
-                className=" bg-gray-200 outline-none"
+                className=" bg-gray-200 outline-none w-full"
               />
             </label>
           </form>
