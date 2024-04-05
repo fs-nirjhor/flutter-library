@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`flex min-h-screen ${inter.className}`}>
-        <aside className="hidden lg:block relative">
+        <aside className="hidden lg:block relative border-r-2">
           <Sidebar />
         </aside>
         <main className="flex flex-col items-center justify-between gap-10">

@@ -16,7 +16,7 @@ const MobileMenu = () => {
         <Image src={menuIcon} alt="menu" />
       </button>
       {isOpen && (
-        <aside className="absolute top-12 left-0 min-h-[calc(100vh-3rem)] bg-white px-3 pb-5">
+        <aside className="absolute top-12 left-0 min-h-[calc(100vh-3rem)] bg-white px-3 pb-5 border-r-2">
           <Sidebar />
         </aside>
       )}
