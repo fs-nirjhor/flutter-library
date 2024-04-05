@@ -8,7 +8,7 @@ import arrow from "@/../public/images/icons/arrow.png";
 
 const Filters = () => {
   const [active, setActive] = useState("All");
-  const activeStyle = "bg-black text-white hover:bg-gray-500";
+  const activeStyle = "bg-black text-white hover:bg-gray-800";
   return (
     <section className="grid grid-flow-col items-center justify-between gap-2 mb-3 text-nowrap text-sm">
       <button className="bg-gray-200 rounded-full px-2 py-1">
