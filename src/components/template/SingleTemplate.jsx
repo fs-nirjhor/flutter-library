@@ -4,7 +4,7 @@ import downloads from "@/../public/images/icons/downloads.png";
 
 const SingleTemplate = ({ template }) => {
   return (
-    <figure className="flex flex-col  rounded p-2 hover:shadow-lg">
+    <figure className="flex flex-col rounded p-2 hover:shadow-lg">
       <div className="relative w-full aspect-video mb-2">
         <Image
           src={template?.image}
@@ -14,9 +14,9 @@ const SingleTemplate = ({ template }) => {
           blurDataURL={template?.image}
         />
       </div>
-      <div className="flex flex-wrap justify-between items-center">
+      <div className="flex flex-nowrap justify-between items-center">
         <h4 className="font-bold">{template?.title}</h4>
-        <div className="flex gap-2 text-sm">
+        <div className="flex text-nowrap gap-2 text-sm">
           <figure>
             <Image src={kits} alt="kits" className="inline mr-1" />
             <span>{template?.kits}</span>
